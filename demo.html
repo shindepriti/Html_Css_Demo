@@ -23,7 +23,7 @@
     <li>Tea</li>
     <li>Apple</li>
   </ol> 
-  
+
   <dl>
     <dt>Coffee</dt>
     <dd>- black hot drink</dd>
@@ -86,5 +86,23 @@
         <th>shinde</th>
     </tr>
 </table>
+
+
+<div class="city">
+    <h2>London</h2>
+    <p>London is the capital of England.</p>
+  </div>
+  
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+<h2 class="city">Paris</h2>
+  <script>
+    function myFunction() {
+      var x = document.getElementsByClassName("city");
+      for (var i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+    }
+</script>
 </body>
 </html>

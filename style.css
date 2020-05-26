@@ -24,4 +24,10 @@ div{
     border-collapse: collapse;
     text-align: left;
   }
+
+  .city{
+      background-color: mediumpurple;
+      margin: 20px;
+      padding: 20px;
+  }
   
