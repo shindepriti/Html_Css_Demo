@@ -30,4 +30,7 @@ div{
       margin: 20px;
       padding: 20px;
   }
+  #myHeader {
+    background-color: lightblue;
+  }
   
