@@ -1,0 +1,41 @@
+* {box-sizing: border-box}
+
+.login{
+    padding: 10%;
+    border: 1px solid white;
+    background-image: url("background.jpg");
+}
+
+.innerLogin { 
+    margin: 0% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 30%; /* Could be more or less, depending on screen size */
+   
+  }
+
+
+.signin{
+    width: 30%;
+    margin: 0 auto 5% auto;
+    text-align: center;
+    cursor: pointer;
+      
+}
+ 
+hr {
+    border: 1px ;
+    margin-bottom: 20px;
+  }
+
+  h1{
+      margin-bottom: auto;
+      text-align: center;   
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 15px 15px;
+    margin: 5px auto 10px auto;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
